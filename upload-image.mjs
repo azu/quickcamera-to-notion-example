@@ -30,9 +30,9 @@ const waitForOpen = async (retryCount = 0, maxRetryCount = 5) => {
 const captureScreenToClipboard = async () => {
     return execFilePromise("screencapture", ["-c"]);
 }
-// find today(YYYY/MM/DDの部屋) and return it as URL
+// find today(YYYY/MM/DD) and return it as URL
 const fetchNotionURL = async () => {
-    const QUERY_TITLE = formatYYYYMMDD(new Date()) + "の部屋";
+    const QUERY_TITLE = formatYYYYMMDD(new Date());
     const response = await notion.databases.query({
         database_id: NOTION_DATABASE_ID,
         filter: {
