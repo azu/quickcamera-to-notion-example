@@ -7,7 +7,7 @@ Upload clipboard image to Notion.
 ## Requirements
 
 - Notion.app
-- [Quick Camera](https://github.com/simonguest/quick-camera)のスクショを撮って、Notionにアップロードするスクリプト
+- [Quick Camera](https://github.com/simonguest/quick-camera)
 
 ## Install
 
