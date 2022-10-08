@@ -1,0 +1,16 @@
+{
+  "name": "notion-upload-image",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "upload": "node upload-image.mjs"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "dependencies": {
+    "@notionhq/client": "^2.1.0",
+    "active-win": "^7.7.2",
+    "robotjs": "^0.6.0"
+  }
+}
