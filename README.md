@@ -16,6 +16,16 @@ Install with [npm](https://www.npmjs.com/):
 
 ## Usage
 
+Change config
+
+```
+const NOTION_API_KEY = "secret_ NotionのAPI Key"; // https://www.notion.so/my-integrations
+const NOTION_DATABASE_ID = '追記したいNotionのDatabaseのID';
+const NOTION_USER_ID = 'NotionのユーザーID'; // https://www.notion.so/<id>
+```
+
+- https://github.com/azu/quickcamera-to-notion-example/blob/431e9b5d5c2af7293e2ecfec882a3310c78ee57d/upload-image.mjs#L9-L11
+
     npm run upload
 
 ## Changelog
